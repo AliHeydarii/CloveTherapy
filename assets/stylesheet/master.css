@@ -1,0 +1,476 @@
+:root{
+    --favoritcolor:rgb(63, 74, 73);
+}
+main{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* overflow-x: hidden; */
+    >.row{
+        >.head_top{
+            width: 100%;
+            height: 120vh;
+            background-image: url(../images/Stocksy_comp_2793634.jpg);
+            background-size: cover;
+            position: relative;
+            &::before{
+                content: "";
+                width: 100%;
+                height: 100%;
+                display: flex;
+                position: absolute;
+                top: 0;left: 0;
+                background-color: #2f373080;
+            }
+            >nav{
+                width: 100%;
+                height: 80px;
+                /* background-color: #ffffff60; */
+                position: relative;
+                padding: 0 5%;
+                >.row{
+                    height: 100%;
+                    >*{
+                        height: 100%;
+                        /* border: 1px solid rgb(0, 0, 0); */
+                        display: flex;
+                    }
+                    >figure{
+                        width: 8%;
+                        >img{
+                            width: 45px;
+                            height: 70px;
+                        }
+                    }
+                    >ul{
+                        width: 72%;
+                        >li{
+                            height: 100%;
+                            /* border: 1px solid black; */
+                            >a{
+                                width: 100%;
+                                height: 100%;
+                                /* background-color: #ff0202; */
+                                color: white;
+                                padding:0 20px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 18px;
+                                text-transform: capitalize;
+                                transition: 0.5s;
+                                &:hover{
+                                    letter-spacing: 1px;
+                                }
+            
+                            }
+                        }
+    
+                    }
+                    >.button{
+                        width: 20%;
+                        align-items: center;
+                        justify-content: flex-end;
+
+                    }
+
+                }
+            }
+            /* end nav */
+            .txt{
+                width: 50%;
+                /* border: 2px solid white; */
+                position: absolute;
+                bottom: 0;left: 0;
+                padding:200px 70px;
+                >*{
+                    color: white;
+                }
+                >h1{
+                    font-family: adonis-webadonis-web;
+                    font-size: 70px;
+                    font-weight: normal;
+                }
+                >p{
+                    font-size: 27px;
+                    margin-top:40px;
+                    line-height: 40px;
+
+                }
+            }
+            /* start txt div */
+        }
+        /* end head top */
+
+        .section2{
+            width: 100%;
+            height: auto;
+            padding: 5%;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            >*{
+                color: var(--favoritcolor);
+                /* border: 1px solid black; */
+            }
+            >h2{
+                font-family: adonis-web;
+                font-size: 68px;
+                font-weight: normal;
+                text-transform: capitalize;
+                width: 100%;
+                text-align: center;
+            }
+            >p{
+                font-size: 25px;
+                font-weight: Pontano Sans;
+                font-weight: normal;
+                line-height: 45px;
+                margin: 50px 0;
+                width: 80%;
+                text-align: center;
+                
+
+            }
+            >.row{
+                width: 100%;
+                justify-content: center;
+                
+            }
+        }
+
+        /* end section2 */
+
+        .section3{
+            width: 100%;
+            padding: 5%;
+            >.row{
+                >*{
+                    width: 50%;
+                    /* border: 2px solid black; */
+                    min-height: 200px;
+                    padding: 3%;
+                }
+                >figure{
+                    
+                    >img{
+                        width: 100%;
+                    }
+                }
+                >div{
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    >*{
+                        color: var(--favoritcolor);
+                    }
+                    >h2{
+                        font-family: adonis-web;
+                        font-size: 68px;
+                        font-weight: normal;
+                        text-transform: capitalize;
+                        width: 100%;
+
+                    }
+                    >p{
+                        font-size: 25px;
+                        font-weight: Pontano Sans;
+                        font-weight: normal;
+                        line-height: 45px;
+                        margin: 50px 0;
+                        width: 80%;
+                        
+                        
+
+                    }
+
+                }
+            }
+        }
+
+        /* end section3 */
+
+        .section4{
+            width: 100%;
+            padding: 5%;
+            background-color: var(--favoritcolor);
+            >*{
+                color: white;
+            }
+            >h2{
+                font-family: adonis-web;
+                font-size: 68px;
+                font-weight: normal;
+                text-transform: capitalize;
+                text-align: center;
+            }
+            >.row{
+                justify-content: space-evenly;
+                >figure{
+                    width: 300px;
+                    height: 300px;
+                    margin-top: 50px;
+                    /* border: 1px solid white; */
+                    >img{
+                        width: 100%;
+                        scale: 1.2;
+                    }
+                    >figcaption{
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 30px;
+                        font-family: adonis-web;
+                        font-size: 27px;
+                    }
+
+                }
+                
+            }
+        }
+
+
+        /* end section4 */
+
+
+            >.section5{
+                width: 100%;
+                padding: 3% 0;
+                >h2{
+                    font-family: adonis-web;
+                    font-size: 68px;
+                    font-weight: normal;
+                    text-transform: capitalize;
+                    text-align: center;
+                    color: var(--favoritcolor);
+                    
+                }
+                >.row{
+                    justify-content: space-evenly;
+                    >figure{
+                        margin-top: 100px;
+                        width: 300px;
+                        justify-content: center;
+                        
+                        >*{
+                            /* border: 1px solid black; */
+                            width: 100%;
+                            
+                        }
+                        >img{
+                            scale: 1.1;
+                        }
+                        >figcaption{
+                            width: 100%;
+                            margin: 30px;
+                            font-family: adonis-web;
+                            font-size: 27px;
+
+                        }
+                    }
+                }
+                    >.row{
+                        >a{
+                            margin-top: 50px;
+                        }
+                    }
+               
+            }
+        
+
+
+        /* end section5 */
+
+
+            .section6{
+                >.row{
+                    width: 100%;
+                    background-color: rgb(220, 217, 208);
+                    justify-content: center;
+                    
+                    >h2{
+                        width: 70%;
+                        font-family: adonis-web;
+                        font-size: 47px;
+                        font-weight: normal;
+                        text-transform: capitalize;
+                        text-align: center;
+                        color: var(--favoritcolor);
+                        margin: 100px 0 50px 0;
+                        
+                    }
+                    >p{
+                        margin:0 0 50px 0;
+                    }
+                }
+            }
+
+
+        /* end section6 */
+
+            .section7{
+                width: 100%;
+                padding: 3% 0;
+                >h2{
+                    font-family: adonis-web;
+                    font-size: 68px;
+                    font-weight: normal;
+                    text-transform: capitalize;
+                    text-align: center;
+                    color: var(--favoritcolor);
+                    
+                }
+                >.row{
+                    justify-content: space-evenly;
+                    >figure{
+                        margin-top: 100px;
+                        width: 300px;
+                
+                        >*{
+                            /* border: 1px solid black; */
+                            width: 100%;
+                            text-align: center;
+                            
+                        }
+                        >img{
+                            scale: 1.1;
+                        }
+                        >figcaption{
+                            width: 100%;
+                            margin: 40px 0;
+                            font-family: adonis-web;
+                            font-size: 27px;
+                            /* border: 1px solid black; */
+                        }
+                        >a{
+                            color: rgb(212, 150, 125);
+                            width: 100%;
+                            justify-content: center;
+                            /* border: 1px solid black; */
+                            margin-left: 100px;
+                            text-decoration: underline;
+                            text-transform: capitalize;
+                            
+                           
+                        }
+                    }
+                }
+                    
+            }
+            
+
+        /* end section7 */
+        .section8{
+            width: 100%;
+            >.row{
+                width: 100%;
+                background-color: var(--favoritcolor);
+                justify-content: center;
+                >h2{
+                    font-family: adonis-web;
+                    font-size: 47px;
+                    font-weight: normal;
+                    text-transform: capitalize;
+                    text-align: center;
+                    color: white;
+                    margin: 100px 0 50px 0;
+                    
+                }
+                >a{
+                    text-align: center;
+                    align-items: center;
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    margin-bottom: 100px;
+                    
+                }
+            }
+        }
+
+
+             
+        /* end section8 */
+
+        .section9{
+            width: 100%;
+            >footer{
+                width: 100%;
+                padding: 4%;
+                >.row{
+                    >div{
+                        width: 33.333%;
+                        /* border: 1px solid black; */
+                        min-height: 100px;
+                        h3, p{
+                            color: var(--favoritcolor);
+                        }
+                        >h3{
+                            font-size: 30px;
+                            font-family: Pontano Sans;
+                            font-weight: normal;
+                        }
+                        >p{
+                            width: 70%;
+                            line-height: 50px;
+                            font-size: 16px;
+                            >a{
+                                color: rgb(223, 162, 125);
+                                text-decoration: underline;
+                                font-size: 16px;
+                            }
+                        }
+                        &:last-of-type{
+                            height: 200px;
+                            /* background-color: red; */
+                            padding: 20px;
+                            >ul{
+                                height: 100%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                flex-direction: column;
+                                
+                                >li{
+                                    width: 50%;
+                                    height: 50px;
+                                    /* border: 1px solid blue; */
+                                    color: rgb(223, 162, 125);
+                                    text-decoration: underline;
+                                    font-size: 16px;
+
+                                }
+                            }
+
+                        }  
+
+                    }
+                }
+            }
+        }
+
+         /* end footer */
+
+        .img{
+            width: 200px;
+            height: 200px;
+            position: fixed;
+            bottom: 0;right: 0;
+            >img{
+                width: 100%;
+                border-radius: 250px;
+                margin: -14%;
+            }
+            >figcaption{
+                width: 100%;
+                font-size: 20px;
+                padding: 14%;
+                
+            }
+
+            
+        }
+
+         /* end  */
+    
+    }
+}

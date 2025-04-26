@@ -1,0 +1,10 @@
+.btnahref{
+ width: 200px;
+ height: 60px;
+ text-transform: uppercase;
+ color: white !important;
+ background-color:#d4967d;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
